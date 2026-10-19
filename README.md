@@ -57,6 +57,11 @@ conda create -n markitdown python=3.12
 conda activate markitdown
 ```
 
+## Quick Setup (MCP daemon)
+
+For running MarkItDown as a persistent **HTTP MCP server** (auto-starts on login, port 8940),
+see **[my-SETUP.md](my-SETUP.md)** — covers macOS and Windows with a single command.
+
 ## Installation
 
 To install MarkItDown, use pip: `pip install 'markitdown[all]'`. Alternatively, you can install it from the source:
